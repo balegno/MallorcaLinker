@@ -63,8 +63,9 @@ p{
 }
 
 p{
-    margin: 0rem 2rem;
+    margin: 0rem 2rem 1.5rem;
     font-size: 1.5rem;
+    
 }
 
 a{
@@ -75,6 +76,7 @@ a{
 /* Servicios */
 
 .head{
+    text-align: center;
     padding: 0rem;
     height: 100%;
     display: flex;
@@ -163,9 +165,194 @@ a{
 }
 
 .img-galeria{
+    object-fit: cover;
     width: 30%;
     display: block;
     margin-bottom: 1.5rem;
     box-shadow: 0 0 6px rgba(0, 0, 0, .5);
     cursor: pointer;
+}
+
+.imagen-light{
+    position: fixed;
+    background: rgba(0, 0, 0, .5);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    justify-content: center;
+    align-items: center;
+    transform: translate(100%);
+    transition: transform .2s ease-in-out;
+}
+
+.show{
+    transform: translate(0);
+}
+
+.agregar-imagen{
+    object-fit: cover;
+    width: 60%;
+    border-radius: 1rem;
+    transform: scale(0);
+    transition: .3s .2s;
+}
+
+.showImage{
+    transform: scale(1);
+}
+
+.close{
+    position: absolute;
+    top: 1.5rem;
+    right: 1.5rem;
+    width: 4rem;
+    cursor: pointer;
+}
+
+
+/* Footer */
+footer{
+    background: #9f8ab0;
+    padding-bottom: 0.1px;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 6rem;
+    padding-bottom: 4rem;
+}
+
+.contact-us{
+    width: 25rem;
+    color: #fff;
+}
+
+.brand{
+    font-weight: 500;
+    font-size: 4rem;
+}
+
+.brand+p{
+    font-weight: 500;
+}
+
+.social-media{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.social-media-icon{
+    display: inline-block;
+    margin-left: 2rem;
+    width: 4.8rem;
+    height: 4.8rem;
+    border-radius: 50%;
+    text-align: center;
+    color: #fff;
+}
+
+.social-media-icon:hover{
+    background: #fff;
+    color: #764ba2;
+}
+
+.social-media-icon i{
+    font-size: 30px;
+    line-height: 3rem;
+}
+
+.line{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 2px;
+    background: #fff;
+    margin-bottom: 6rem;
+}
+
+
+@media screen and (max-width:800px){
+    .menu-navegacion{
+        width: 50vw;
+    }
+
+    .titulo{
+        font-size: 4rem;
+    }
+
+    .contenedor-servicios img{
+        width: 80%;
+        margin-bottom: 4rem;
+    }
+
+    .checklist-servicio{
+        width: 80%;
+    }
+
+    .service{
+        margin-bottom: 3rem;
+    }
+
+    .agregar-imagen{
+        width: 80%;
+    }
+
+    .img-galeria{
+        width: 45%;
+    }
+
+    .footer-content{
+        justify-content: center;
+    }
+
+    .social-media{
+        width: 80%;
+        justify-content: space-evenly;
+    }
+
+    .social-media i{
+        margin-left: 0;
+    }
+
+    .contact-us{
+        text-align: center;
+        width: 80%;
+        margin-bottom: 4rem;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .menu-navegacion{
+        width: 65vw;
+    }
+
+    .hamburger{
+        top: 2rem;
+        right: 2rem;
+    }
+    
+    .titulo{
+        font-size: 3rem;
+    }
+
+    .subtitulo{
+        font-size: 3rem;
+    }
+
+    .agregar-imagen{
+        width: 95%;
+    }
+
+    .img-galeria{
+        width: 95%;
+    }
+
+    .brand{
+        font-size: 3.5rem;
+    }
 }
