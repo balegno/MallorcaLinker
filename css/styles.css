@@ -55,6 +55,7 @@ p{
     font-family: 'Open Sans', sans-serif;
     font-size: 3rem;
     margin: 1rem 2rem 0rem;
+    color: #9f8ad0;
 }
 
 .logo{
@@ -64,7 +65,7 @@ p{
 
 p{
     margin: 0rem 2rem 1.5rem;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     
 }
 .idioma{
@@ -84,6 +85,18 @@ a{
     display: flex;
     justify-content: center;
 }
+
+
+/* Experimento */
+.tranqui{
+    width: 100%;
+}
+.imgFondo{
+    position: relative;
+}
+
+
+
 
 
 /* Servicios */
@@ -109,7 +122,6 @@ a{
 }
 .hamburger{
     position: fixed;
-    z-index: 10;
     top: 30px;
     right: 30px;
     background: #fff;
@@ -193,6 +205,7 @@ a{
     height: 100%;
     top: 0;
     left: 0;
+    display: flex;
     justify-content: center;
     align-items: center;
     transform: translate(100%);
@@ -221,6 +234,7 @@ a{
     right: 1.5rem;
     width: 4rem;
     cursor: pointer;
+    z-index: 1;
 }
 
 
@@ -288,6 +302,26 @@ footer{
     margin-bottom: 6rem;
 }
 
+
+.foo{
+    text-align: center;
+    margin: 1rem;
+    font-size: 1.5rem;
+}
+
+.pFoo{
+    text-align: center;
+    margin: 1rem;
+    font-size: 1.2rem
+}
+
+.Martin{
+    list-style-type: none;
+    text-decoration: none;
+    text-align: center;
+    margin: 1rem;
+    font-size: 1.2rem;
+}
 
 @media screen and (max-width:800px){
     .menu-navegacion{
