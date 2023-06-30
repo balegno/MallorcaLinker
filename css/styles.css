@@ -59,7 +59,7 @@ p{
 }
 
 .logo{
-    width: 9rem;
+    width: 12rem;
     
 }
 
@@ -316,6 +316,7 @@ footer{
 }
 
 .Martin{
+    color: black;
     list-style-type: none;
     text-decoration: none;
     text-align: center;
