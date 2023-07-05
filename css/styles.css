@@ -63,11 +63,15 @@ body{
 p{
     font-family: 'Open Sans', sans-serif;
     font-size: 1.8rem;
+}
+
+.sstit{
     background: linear-gradient(white, rgb(128, 128, 206)) ;
     border-radius: 1rem;
     margin: 0rem 2rem 1.5rem;
     border: solid 1px;
 }
+
 .idioma{
     text-align: center;
     font-size: 2rem;
@@ -134,7 +138,7 @@ p{
 
 
 .header{
-    height: 500px;
+    height: 600px;
     background-image: linear-gradient(rgba(48, 52, 64, 0.5), rgba(0,0,0, .7)) ,url(../img/jardi.png);
     background-size: cover;
     animation: animate 20s infinite;
