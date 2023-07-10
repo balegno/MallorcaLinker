@@ -52,13 +52,14 @@ body{
     font-family: 'Open Sans', sans-serif;
     font-size: 3rem;
     margin: 1rem 2rem 0rem;
-    color: #9f8ad0;
+    color: black;
 }
 
 .logo{
-    width: 12rem;
-    
+    width: 12rem;    
 }
+
+
 
 p{
     font-family: 'Open Sans', sans-serif;
@@ -66,10 +67,11 @@ p{
 }
 
 .sstit{
-    background: linear-gradient(white, rgb(128, 128, 206)) ;
-    border-radius: 1rem;
+    color: black;
+    border-radius: 1.2rem .3rem;
     margin: 0rem 2rem 1.5rem;
     border: solid 1px;
+    padding: .5rem;
 }
 
 .idioma{
@@ -88,15 +90,6 @@ p{
     font-size: 2rem;
     display: flex;
     justify-content: center;
-}
-
-
-/* Experimento */
-.tranqui{
-    width: 100%;
-}
-.imgFondo{
-    position: relative;
 }
 
 
@@ -137,31 +130,38 @@ p{
 }
 
 
+
+
 .header{
     height: 600px;
-    background-image: linear-gradient(rgba(48, 52, 64, 0.5), rgba(0,0,0, .7)) ,url(../img/jardi.png);
+    width: 100%;
+    background-image: url(../img/1.png);
+    background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
     animation: animate 20s infinite;
 }
 
+
 @keyframes animate{
     25%{
-        background-image: linear-gradient(rgba(48, 52, 64, 0.5), rgba(0,0,0, .7)) , url(../img/elect.png);
+        background-image: url(../img/2.png);
         background-size: cover;
     }
 
     50%{
-        background-image: linear-gradient(rgba(48, 52, 64, 0.5), rgba(0,0,0, .7)) , url(../img/font.png);
+        background-image: url(../img/3.png);
         background-size: cover;
     }
-    75%{
-        background-image: linear-gradient(rgba(48, 52, 64, 0.5), rgba(0,0,0, .7)) , url(../img/limp.png);
+    /* 75%{
+        background-image: url(../img/limp.png);
         background-size: cover;
     }
     100%{
-        background-image: linear-gradient(rgba(48, 52, 64, 0.5), rgba(0,0,0, .7)) , url(../img/panel.png);
-        background-size: cover;
-    }
+        background-image: url(../img/panel.png);
+        background-size: cover; */
+    /* } */
 
 }
 
@@ -310,7 +310,7 @@ footer{
     font-size: 4rem;
 }
 
-.brand+p{
+.brand ,p{
     font-weight: 500;
 }
 
