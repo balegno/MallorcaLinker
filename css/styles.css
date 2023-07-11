@@ -155,14 +155,6 @@ p{
         background-image: url(../img/3.png);
         background-size: cover;
     }
-    /* 75%{
-        background-image: url(../img/limp.png);
-        background-size: cover;
-    }
-    100%{
-        background-image: url(../img/panel.png);
-        background-size: cover; */
-    /* } */
 
 }
 
@@ -329,6 +321,8 @@ footer{
     border-radius: 50%;
     text-align: center;
     color: #fff;
+    /* width: 30px;
+    height: 30px; */
 }
 
 .social-media-icon:hover{
@@ -426,6 +420,9 @@ footer{
     .menu-navegacion{
         width: 65vw;
     }
+
+    /* .header img{
+    } */
 
     .hamburger{
         top: 2rem;
