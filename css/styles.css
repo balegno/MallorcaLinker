@@ -229,6 +229,7 @@ p{
     flex-wrap: wrap;
 }
 
+
 .img-galeria{
     object-fit: cover;
     width: 30%;
@@ -236,6 +237,10 @@ p{
     margin-bottom: 1.5rem;
     box-shadow: 0 0 6px rgba(0, 0, 0, .5);
     cursor: pointer;
+}
+.img-galeria:hover{
+    transform: scale(1.1);
+    transition: all 200ms;
 }
 
 .imagen-light{
@@ -261,7 +266,7 @@ p{
     width: 60%;
     border-radius: 1rem;
     transform: scale(0);
-    transition: .3s .2s;
+    transition: .1s;
 }
 
 .showImage{
@@ -289,8 +294,7 @@ footer{
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    padding-top: 6rem;
-    padding-bottom: 4rem;
+    padding: 6rem 1.8rem 4rem;
 }
 
 .contact-us{
@@ -326,6 +330,8 @@ footer{
 .social-media-icon:hover{
     background: #fff;
     color: #764ba2;
+    transition: .5s;
+    transform: scale(1.4);
 }
 
 .social-media-icon i{
