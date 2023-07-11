@@ -136,7 +136,7 @@ p{
 .header{
     height: 650px;
     width: 100%;
-    background-image: url(../img/1.png);
+    background-image: url(../img/1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -147,12 +147,12 @@ p{
 
 @keyframes animate{
     25%{
-        background-image: url(../img/2.png);
+        background-image: url(../img/2.jpg);
         background-size: cover;
     }
 
     50%{
-        background-image: url(../img/3.png);
+        background-image: url(../img/4.jpg);
         background-size: cover;
     }
 
@@ -321,8 +321,6 @@ footer{
     border-radius: 50%;
     text-align: center;
     color: #fff;
-    /* width: 30px;
-    height: 30px; */
 }
 
 .social-media-icon:hover{
@@ -420,9 +418,6 @@ footer{
     .menu-navegacion{
         width: 65vw;
     }
-
-    /* .header img{
-    } */
 
     .hamburger{
         top: 2rem;
