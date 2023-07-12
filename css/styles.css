@@ -134,8 +134,8 @@ p{
 
 
 .header{
-    height: 650px;
-    width: 100%;
+    height: auto;
+    width: auto;
     background-image: url(../img/1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -256,6 +256,8 @@ p{
     transform: translate(100%);
     transition: transform .2s ease-in-out;
 }
+
+
 
 .show{
     transform: translate(0);
