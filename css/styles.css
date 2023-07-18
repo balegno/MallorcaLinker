@@ -51,19 +51,19 @@ body{
 .titulo{
 
     font-family: 'Open Sans', sans-serif;
-    font-size: 2.6rem;
     margin: 1rem 1.7rem 1.5rem;
     padding: .5rem;
     color: black;
 }
 
 .logo{
-    width: 14rem; 
-    margin: 3rem;
+    width: 14rem;
+    margin-bottom: 38rem;
 }
 
 h1{
     text-align: center;
+    font-size: 4rem;
 }
 
 
@@ -76,7 +76,7 @@ p{
     color: black;
     margin: 0rem 1.7rem 1.5rem;
     text-align: center;
-    font-size: 1.7rem;
+    font-size: 1.6rem;
 }
 
 .inicio{
@@ -85,8 +85,8 @@ p{
     background-color: #30344041;
     border-radius: 2rem .5rem;
     height: 11rem;
-    width: 33rem;
-    margin: auto auto 4rem;
+    width: 34rem;
+    margin: 4rem auto 4rem;
     box-shadow: rgba(177, 177, 107, 0.76) 10px 12px 15px;
 }
 
@@ -116,11 +116,8 @@ p{
 /* Servicios */
 
 .head{
-    text-align: center;
-    height: 550px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+    padding: 2rem;
+    height: 100%;
 }
 
 
@@ -146,8 +143,9 @@ p{
 
 
 .header{
-    width: 100%;
-    height: auto;
+    position: relative;
+    /* width: 100%;
+    height: auto; */
     margin: auto;
     background-image: url(../img/Diseño\ sin\ título.png);
     background-repeat: no-repeat;
@@ -398,8 +396,16 @@ footer{
         width: 50vw;
     }
 
+    .logo{
+        width: 12rem;
+    }
+
     .titulo{
-        font-size: 4rem;
+        font-size: 3rem;
+    }
+
+    .inicio{
+        width: 27rem;
     }
 
     .contenedor-servicios img{
@@ -455,8 +461,20 @@ footer{
         right: 2rem;
     }
     
+    .logo{
+        width: 10rem;
+    }
+
+    .inicio{
+        height: 13rem;
+    }
+
     .titulo{
-        font-size: 3rem;
+        font-size: 2.7rem;
+    }
+
+    .inicio{
+        width: 25rem;
     }
 
     .subtitulo{
