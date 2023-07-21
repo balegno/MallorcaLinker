@@ -24,6 +24,7 @@ body{
 }
 
 .menu-navegacion{
+    z-index: 1;
     position: fixed;
     top: 0;
     right: 0;
@@ -129,6 +130,7 @@ p{
     margin: 0rem auto 5rem;
 }
 .hamburger{
+    z-index: 1;
     position: fixed;
     top: 30px;
     right: 30px;
@@ -143,10 +145,8 @@ p{
 
 
 .header{
-    position: relative;
-    /* width: 100%;
-    height: auto; */
-    margin: auto;
+    /* position: relative; */
+    height: 600px; 
     background-image: url(../img/Diseño\ sin\ título.png);
     background-repeat: no-repeat;
     background-size: cover;
