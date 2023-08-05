@@ -229,6 +229,17 @@ a{
     margin-top: 2rem;
 }
 
+#carouselExampleCaptions{
+    width: 99%;
+    margin: auto;
+}
+.carousel-indicators{
+    z-index: 0;
+}
+.carousel-control-next, .carousel-control-prev{
+    z-index: 0;
+}
+
 
 
 .header{
@@ -434,6 +445,39 @@ footer{
     }
 }
 
+@media screen and (max-width:641px){
+    #carouselExampleCaptions{
+        margin: auto;
+    }
+    .bgGrey{
+        height: auto;
+        width: 99%;
+        margin:-1rem auto;
+    }
+    .bgGrey h2{
+        font-size: 2rem;
+    }
+    .bgGrey p{
+        font-size: 1.8rem;
+
+    }
+    .carousel-indicators{
+        z-index: 0;
+        margin: 0;
+    }
+    .carousel-caption{
+        padding: 0;
+    }
+    .carousel-control-next, .carousel-control-prev{
+        z-index: 0;
+        opacity: 0;
+    }
+    .carousel-caption{
+        right: 0;
+        left: 0;
+    }
+}
+
 
 @media screen and (max-width:500px) {
     .menu-navegacion{
@@ -460,5 +504,38 @@ footer{
 
     .brand{
         font-size: 3.5rem;
+    }
+
+
+    #carouselExampleCaptions{
+        margin: auto;
+    }
+    .bgGrey{
+        height: 28%;
+        width: 98%;
+        margin:-1rem auto;
+    }
+    .bgGrey h2{
+        font-size: 1.6rem;
+        margin: 0;
+    }
+    .bgGrey p{
+        font-size: 1.3rem;
+        margin: 0;
+    }
+    .carousel-indicators{
+        z-index: 0;
+        margin: 0;
+    }
+    .carousel-caption{
+        padding: 0;
+    }
+    .carousel-control-next, .carousel-control-prev{
+        z-index: 0;
+        opacity: 0;
+    }
+    .carousel-caption{
+        right: 0;
+        left: 0;
     }
 }
