@@ -134,8 +134,8 @@ a{
 /* Servicios */
 
 .logoDiv{
-    padding: 2rem;
-    height: 11rem;
+    padding: 1.4rem;
+    height: 12rem;
     width: 100%;
     background-color: #d4cc5a;
     display: flex;
@@ -186,6 +186,19 @@ a{
     text-align: center;
     font-size: 1.8rem;
     font-weight: 500;
+}
+
+.bgGrey{
+    background-color: #303440a8;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 2rem;
+}
+
+.carousel-caption{
+    position: absolute;
+    right: 10%;
+    left: 10%;
 }
 
 
