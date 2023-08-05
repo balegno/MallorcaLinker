@@ -8,23 +8,23 @@
     <meta name="description" content="Are you looking for security and reliability for the maintenance of your home? Find out how we can help you">
     
     
-        <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet"> 
+    <!-- Google Fonts -->
     
-        <!-- CSS BOOTSTRAP-->
-    <link
-    href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
-    rel="stylesheet"
-    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
-    crossorigin="anonymous"
-    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;500;700&display=swap" rel="stylesheet">
+
+
+    <!-- CSS BOOTSTRAP-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+    rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous"/>
 
     
-  <!-- animaciones -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <!-- animaciones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 
-  <!-- Box Icons -->
-  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Box Icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
     
     <!-- CSS Propio -->
@@ -37,7 +37,7 @@
   
 
 
-<header class="header" id="inico">
+<header id="inico">
   <img src="../img/bx-menu-alt-right.svg" alt="Menu" class="hamburger">
   <nav class="menu-navegacion">
     
@@ -72,69 +72,123 @@
     </a>
   </nav>
   
-  <div class="head">
+  <div class="logoDiv">
     <img class= "logo" src="../img/Logo.png" alt="Logo">
+    <h2 class="lema">Everything your residence needs</h2>
   
   </div>
 </header>
 
 <main>
+  <section class="descHead">
+    <p>We provide solutions to make your spaces work properly and look extraordinary.</p>
+  </section>
+
+  <section class="header">
+      
+  </section>
+
   <section class="contenedor" id="servicios">
     
-    <div class="inicio wow animate__animated animate__backInDown">
-      <h1 class="titulo"> <strong>MallorcaLinker</strong></h1>
-      <p class="sstit"><strong>Everything your home needs</strong></p>
-    </div>
 
     <h2 class="subtitulo"><strong>Our services</strong></h2>
+    <p class="servi">Cleaning / Maintenance / Electricity / Plumbing / Gardening</p>
     <div class="contenedor-servicios">
-      <img class="const" src="../img/constr.png" alt="Servicios">
-      <div class="checklist-servicio">
 
-        <div class="service wow animate__animated animate__backInDown">
-          <h3 class="n-service"><span class="number">1</span><strong>Cleaning/Maintenance</strong></h3>
-          <p class="descripcion">Your home impeccable with our services. Enjoy an impeccable and relaxing space.</p>
-        </div>
+      
 
-        <div class="service wow animate__animated animate__backInDown">
-          <h3 class="n-service"><span class="number">2</span>Electricity</h3>
-          <p class="descripcion">Service with a qualified electrician. Able to carry out work such as maintenance or installation.</p>
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-interval="290000" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-interval="290000" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-interval="290000" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-interval="290000" data-bs-slide-to="3" aria-label="Slide 4"></button>
         </div>
-        <div class="service wow animate__animated animate__backInDown">
-          <h3 class="n-service"><span class="number">3</span>Plumbing</h3>
-          <p class="descripcion">Repairs and installations with highly trained personnel for all types of plumbing work.</p>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="../img/limp.jpg" class="d-block w-100" alt="Reinigung/Wartung">
+            <div class="carousel-caption d-none d-md-block">
+              <h2>Cleaning/Maintenance</h2>
+              <p>Your home impeccable with our services. Enjoy an impeccable and relaxing space.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="../img/elect.jpg" class="d-block w-100" alt="Elektrizität">
+            <div class="carousel-caption d-none d-md-block">
+              <h2>Electricity</h2>
+              <p class="descripcion">Service with a qualified electrician. Able to carry out work such as maintenance or installation.</p>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <img src="../img/font.jpg" class="d-block w-100" alt="Klempnerarbeiten">
+            <div class="carousel-caption d-none d-md-block">
+              <h2>Plumbing</h2>
+              <p class="descripcion">Repairs and installations with highly qualified personnel for all types of plumbing work.</p>
+            </div>
+          </div>
+          
+          <div class="carousel-item">
+            <img src="../img/jardi.jpg" class="d-block w-100" alt="Gartenarbeit">
+            <div class="carousel-caption d-none d-md-block">
+              <h2>Gardening</h2>
+              <p class="descripcion">Experts in landscaping, with modern designs for your home. Their green spaces tended with dedication for your enjoyment.</p>
+            </div>
+          </div>
+          
         </div>
-        <div class="service wow animate__animated animate__backInDown">
-          <h3 class="n-service"><span class="number">4</span>Gardening</h3>
-          <p class="descripcion">Experts in landscaping, with modern designs for your home. Your green spaces cared for with dedication for your enjoyment.</p>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+
+    </div>
+  </section>
+
+  <section class="imporServ">
+    <div class="contenedor">
+      <h2 class="subtitulo wow animate__animated animate__backInDown">The importance of our services</h2>
+      <p class="wow animate__animated animate__fadeInUp">We provide you with trained professionals to carry out maintenance or repair services so that each of your customers can enjoy their visit to your facilities without encountering breakdowns or problems of use.</p>
+    </div>
+
+    <div style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C105.80,156.42 379.51,-45.86 501.97,100.17 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #30344052;"></path></svg></div>
+
+    <div class="todasDescTipos">
+      <h2 class="contenedor subtitulos">Types of maintenance</h2>
+
+        <div class="descTipos wow animate__animated animate__backInDown">
+          <h3 class="tiposMantenimiento ">Corrective Maintenance</h3>
+          <p class="tiposMantP">In which faults or malfunctions are located and repaired by our professionals</p>
         </div>
       
-        <div class="service wow animate__animated animate__backInDown">
-          <h3 class="n-service"><span class="number">...</span>Additional Services</h3>
-          <p class="descripcion">For more information on all our services, please contact us through our <a href="#contacto" class="redes">Networks</a></p>
-        </div>
+      <div class="descTipos wow animate__animated animate__backInDown">
+        <h3 class="tiposMantenimiento">Preventive</h3>
+        <p class="tiposMantP">is carried out on the equipment to analyse its operating conditions, with scheduled checks.
+          The work and intervals are planned for the optimum operation of the installations.</p>
+      </div>
+
+      <div class="descTipos wow animate__animated animate__backInDown">
+        <h3 class="tiposMantenimiento">Technical-Legal Maintenance</h3>
+        <p class="tiposMantP">is the maintenance of equipment and installations required by law, which must be carried out by companies other than the company that owns them.</p>
       </div>
     </div>
   </section>
 
-  <section class="galeria" id="porfolio">
-    <div class="contenedor wow animate__animated animate__zoomIn">
-      <h2 class="subtitulo"><strong>Gallery</strong></h2>
-      <div class="contenedor-galeria">
-        <img src="../img/font.jpg" alt="" class="img-galeria">
-        <img src="../img/limp.jpg" alt="" class="img-galeria">
-        <img src="../img/pile.jpg" alt="" class="img-galeria">
-        <img src="../img/elect.jpg" alt="" class="img-galeria">
-        <img src="../img/panel.jpg" alt="" class="img-galeria">
-        <img src="../img/jardi.jpg" alt="" class="img-galeria">
-      </div>
-    </div>
+  <div style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M-12.13,24.19 C149.83,173.20 327.59,-17.25 505.92,81.42 L501.97,-3.44 L-1.97,-2.44 Z" style="stroke: none; fill: #30344052;"></path></svg></div>
+
+<section class="imgUlt">
+    <img class="ultImg" src="../img/panel.jpg" alt="PanelesSolares">
   </section>
-  <section class="imagen-light">
-    <img src="../img/hamb-x.svg" alt="" class="close">
-    <img src="" alt="" class="agregar-imagen">
-  </section>
+
 </main>
+
+<div style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C105.80,156.42 379.51,-45.86 501.97,100.17 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #30344041;"></path></svg></div>
 
 <footer id="contacto">
   <div class="contenedor footer-content">

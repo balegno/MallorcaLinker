@@ -9,7 +9,6 @@
 
 html{
     font-size: 62.5%;
-    font-family: 'Open Sans', sans-serif;
 }
 body{
     background-image: linear-gradient(to bottom, rgb(245, 247, 250) 0%, rgb(195, 207, 226) 100%);
@@ -25,6 +24,7 @@ body{
 
 .menu-navegacion{
     z-index: 1;
+    overflow: hidden;
     position: fixed;
     top: 0;
     right: 0;
@@ -51,29 +51,51 @@ body{
 
 .titulo{
 
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins',;
     margin: 1rem 1.7rem 1.5rem;
     padding: .5rem;
     color: black;
 }
 
 .logo{
-    width: 14rem;
-    margin-bottom: 38rem;
+    margin-top: 4rem;
+    width: 12rem;
 }
+
 
 h1{
+    font-family: 'Poppins';
     text-align: center;
     font-size: 4rem;
+    font-weight: 700;
+}
+
+h2{
+    font-family: 'Poppins';
+    font-size: 3rem;    
+    font-weight: 600;
+}
+
+h3{
+    font-family: 'Poppins';
+    font-size: 2.2rem;
+    font-weight: 700;    
+}
+
+p{
+    font-family: 'Poppins';
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin: 1rem;
 }
 
 
-p{
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1.8rem;
+a{
+    font-family: 'Poppins';
 }
 
 .sstit{
+    font-family: 'Poppins';
     color: black;
     margin: 0rem 1.7rem 1.5rem;
     text-align: center;
@@ -83,12 +105,6 @@ p{
 .inicio{
     display: flex;
     flex-direction: column;
-    background-color: #30344041;
-    border-radius: 2rem .5rem;
-    height: 11rem;
-    width: 34rem;
-    margin: 4rem auto 4rem;
-    box-shadow: rgba(177, 177, 107, 0.76) 10px 12px 15px;
 }
 
 
@@ -105,6 +121,7 @@ p{
 }
 
 .nav-a, .menu-nav{
+
     font-size: 2rem;
     display: flex;
     justify-content: center;
@@ -116,19 +133,33 @@ p{
 
 /* Servicios */
 
-.head{
+.logoDiv{
     padding: 2rem;
-    height: 100%;
+    height: 11rem;
+    width: 100%;
+    background-color: #d4cc5a;
+    display: flex;
+    align-items: center;
 }
 
+.lema{
+    font-weight: 700;
+    text-align: center;
+    margin: auto;
+    padding: 2rem;
 
+}
 
 .contenedor{
-    width: 90%;
+    padding: 0 3rem 4rem;
+    text-align: center;
+    width: 100%;
     max-width: 1200px;
     overflow: hidden;
-    margin: 0rem auto 5rem;
+    margin: 0rem auto;
 }
+
+
 .hamburger{
     z-index: 1;
     position: fixed;
@@ -143,16 +174,59 @@ p{
 }
 
 
+.descHead{
+    background-color: grey;
+    padding: 1rem;
+}
+.descHead p{
+    width: 80%;
+    padding: 2rem;
+    font-family: 'Poppins';
+    margin: auto;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+
+.todasDescTipos{
+    background-color: #30344052;
+    padding: 2rem 2.5rem;
+}
+
+
+.tiposMantenimiento{
+    margin: auto;
+    width: 70%;
+    background-color: #d4cc5a;
+    padding: .5rem 1.3rem;
+    border-radius: 1rem;
+
+}
+
+.tiposMantP{
+    margin: 1.5rem auto;
+    text-align: center;
+    width: 80%;
+    color: #fff;
+}
+
+.descTipos{
+    text-align: center;
+    margin-top: 2rem;
+}
+
+
 
 .header{
-    /* position: relative; */
-    height: 600px; 
+    margin-bottom: 2rem;
+    height: 500px;
+    width: 100%;
     background-image: url(../img/Diseño\ sin\ título.png);
     background-repeat: no-repeat;
     background-size: cover;
-    /* background-attachment: fixed; */
     background-position: center center;
-    animation: animate 20s infinite;
+    animation: animate 30s infinite;
 }
 
 
@@ -160,13 +234,13 @@ p{
     25%{
         background-image: url(../img/2.jpg);
         background-size: cover;
-        animation: animate 20s infinite;
+        animation: animate 20s ease-in-out;
     }
 
     50%{
         background-image: url(../img/4.jpg);
         background-size: cover;
-        animation: animate 20s infinite;
+        animation: animate 10s infinite;
     }
 
 }
@@ -185,123 +259,35 @@ p{
 
 }
 
+.subtitulos{
+    color: white;
+    font-size: 3rem;
+    font-weight: 800;
+}
 
 .subtitulo{
-    text-align: center;
-    color: #000000;
-    margin-bottom: 4rem;
+    color: #BBB27F;
     font-size: 3rem;
+    font-weight: 800;
 }
 
-.contenedor-servicios{
+.carousel{
+    margin: 2rem;
+}
+
+    
+.ultImg{
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-wrap: wrap;
-
-}
-
-.contenedor-servicios img{
-    width: 40%;
-}
-
-.checklist-servicio{
-    width: 45%;
-}
-
-.service{
-    margin-bottom: 2rem;
-}
-
-.n-service{
-    margin-bottom: .7rem;
-    color: #000000;
-    font-size: 2.3rem;
-}
-
-.number{
-    display: inline-block;
-    background-image: linear-gradient(150deg, #798196 0%, #bed84d 100%);
-    width: 3rem;
-    height: 3rem;
-    color: white;
-    text-align: center;
-    border-radius: 50%;
-    font-weight: 700;
-    line-height: 2.8rem;
-    margin-right: 1rem;
-}
-
-.gallery{
-    background: #f2f2f2;
-}
-
-.contenedor-galeria{
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-}
-
-
-.img-galeria{
-    object-fit: cover;
-    width: 30%;
-    display: block;
-    margin-bottom: 1.5rem;
-    box-shadow: 0 0 6px rgba(0, 0, 0, .5);
-    cursor: pointer;
-}
-.img-galeria:hover{
-    transform: scale(1.1);
-    transition: all 200ms;
-}
-
-.imagen-light{
-    position: fixed;
-    background: rgba(0, 0, 0, .5);
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transform: translate(100%);
-    transition: transform .2s ease-in-out;
-}
-
-
-
-.show{
-    transform: translate(0);
-}
-
-.agregar-imagen{
-    object-fit: cover;
-    width: 60%;
+    width: 90%;
+    margin: 3rem auto;
     border-radius: 1rem;
-    transform: scale(0);
-    transition: .1s;
 }
 
-.showImage{
-    transform: scale(1);
-}
-
-.close{
-    position: absolute;
-    top: 1.5rem;
-    right: 1.5rem;
-    width: 4rem;
-    cursor: pointer;
-    z-index: 1;
-}
-
-
+    
 /* Footer */
 footer{
     background-color: #30344041;
-    padding-bottom: 0.1px;
+    padding-bottom: .5rem;    
 }
 
 .footer-content{
@@ -309,7 +295,7 @@ footer{
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    padding: 6rem 1.8rem 4rem;
+    padding: 0 1.8rem 4rem;
 }
 
 .contact-us{
@@ -322,9 +308,6 @@ footer{
     font-size: 4rem;
 }
 
-.brand ,p{
-    font-weight: 500;
-}
 
 .social-media{
     width: 50%;
@@ -366,7 +349,7 @@ footer{
     margin: 0 auto;
     height: 2px;
     background: #fff;
-    margin-bottom: 6rem;
+    margin: 3rem auto 4rem;
 }
 
 
@@ -396,38 +379,27 @@ footer{
         width: 50vw;
     }
 
-    .logo{
-        width: 12rem;
+    .hamburger{
+        top: 4.5rem;
+    }
+
+
+    .lema{
+        width: 27rem;
+        font-size: 2.5rem;
+        padding: 0 3rem;
     }
 
     .titulo{
         font-size: 3rem;
     }
 
-    .inicio{
-        width: 27rem;
+
+    .servi{
+        font-weight: 500;
+        margin: 1rem;
     }
 
-    .contenedor-servicios img{
-        width: 80%;
-        margin-bottom: 4rem;
-    }
-
-    .checklist-servicio{
-        width: 90%;
-    }
-
-    .service{
-        margin-bottom: 3rem;
-    }
-
-    .agregar-imagen{
-        width: 80%;
-    }
-
-    .img-galeria{
-        width: 45%;
-    }
 
     .footer-content{
         justify-content: center;
@@ -447,9 +419,8 @@ footer{
         width: 80%;
         margin-bottom: 4rem;
     }
-
-
 }
+
 
 @media screen and (max-width:500px) {
     .menu-navegacion{
@@ -457,36 +428,21 @@ footer{
     }
 
     .hamburger{
-        top: 2rem;
+        top: 3rem;
         right: 2rem;
     }
-    
-    .logo{
-        width: 10rem;
-    }
 
-    .inicio{
-        height: 13rem;
+    .lema{
+        width: 20rem;
+        font-size: 2rem;
     }
 
     .titulo{
         font-size: 2.7rem;
     }
 
-    .inicio{
-        width: 25rem;
-    }
-
     .subtitulo{
         font-size: 3rem;
-    }
-
-    .agregar-imagen{
-        width: 95%;
-    }
-
-    .img-galeria{
-        width: 95%;
     }
 
     .brand{
