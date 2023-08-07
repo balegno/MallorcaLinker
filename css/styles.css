@@ -60,6 +60,14 @@ body{
 .logo{
     margin-top: 4rem;
     width: 12rem;
+    z-index: 1;
+}
+
+.ola{
+    margin-top: -1px;
+}
+.hola{
+    margin-bottom: -1px;
 }
 
 
@@ -159,6 +167,10 @@ a{
     margin: 0rem auto;
 }
 
+.contenedor p{
+    padding: 1rem 2rem;
+}
+
 
 .hamburger{
     z-index: 1;
@@ -175,21 +187,20 @@ a{
 
 
 .descHead{
-    background-color: grey;
-    padding: 1rem;
+    margin-top: -12rem;
+    padding: 2rem;
 }
 .descHead p{
     width: 80%;
-    padding: 2rem;
     font-family: 'Poppins';
     margin: auto;
     text-align: center;
     font-size: 1.8rem;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .bgGrey{
-    background-color: #303440a8;
+    background-color: #30344071;
     width: 80%;
     margin: 0 auto;
     border-radius: 2rem;
@@ -203,7 +214,7 @@ a{
 
 
 .todasDescTipos{
-    background-color: #30344052;
+    background-color: #a2a2b1;
     padding: 2rem 2.5rem;
 }
 
@@ -290,6 +301,7 @@ a{
 }
 
 .subtitulo{
+    margin: 3rem;
     color: #BBB27F;
     font-size: 3rem;
     font-weight: 800;
@@ -310,7 +322,7 @@ a{
     
 /* Footer */
 footer{
-    background-color: #30344041;
+    background-color: #a2a2b1;
     padding-bottom: .5rem;    
 }
 
@@ -537,5 +549,38 @@ footer{
     .carousel-caption{
         right: 0;
         left: 0;
+    }
+}
+
+
+@media screen and (max-width:414px) {
+    .lema{
+        width: 10rem;
+        font-size: 1.7rem;
+        padding: 0;
+        margin-top: 2rem;
+        margin-left: 5rem;
+    }
+    .bgGrey{
+        height: auto;
+        width: 99%;
+        margin:-1rem auto;
+        padding: 0 1rem;
+    }
+    .bgGrey h2{
+        font-size: 2.2rem;
+    }
+    .bgGrey p{
+        font-size: 1.7rem;
+    }
+}
+
+
+@media screen and (max-width:375px) {
+    .bgGrey h2{
+        font-size: 1.7rem;
+    }
+    .bgGrey p{
+        font-size: 1.4rem;
     }
 }
