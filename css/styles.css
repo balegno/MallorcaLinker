@@ -50,7 +50,7 @@ body{
 }
 
 .titulo{
-
+    text-transform: uppercase;
     font-family: 'Poppins',;
     margin: 1rem 1.7rem 1.5rem;
     padding: .5rem;
@@ -72,6 +72,7 @@ body{
 
 
 h1{
+    text-transform: uppercase;
     font-family: 'Poppins';
     text-align: center;
     font-size: 4rem;
@@ -79,18 +80,22 @@ h1{
 }
 
 h2{
+    text-transform: uppercase;
     font-family: 'Poppins';
     font-size: 3rem;    
     font-weight: 600;
 }
 
 h3{
+    text-transform: uppercase;
     font-family: 'Poppins';
     font-size: 2.2rem;
     font-weight: 700;    
 }
 
 p{
+    
+    text-transform: uppercase;
     font-family: 'Poppins';
     font-size: 1.8rem;
     font-weight: 500;
@@ -103,6 +108,7 @@ a{
 }
 
 .sstit{
+    text-transform: uppercase;
     font-family: 'Poppins';
     color: black;
     margin: 0rem 1.7rem 1.5rem;
@@ -117,6 +123,7 @@ a{
 
 
 .idioma{
+    text-transform: uppercase;
     text-align: center;
     font-size: 2rem;
     color: #fff;
@@ -126,10 +133,11 @@ a{
 .lengua a{
     border-bottom: 1.3px solid #303440;
     margin: .5rem;
+    text-transform: uppercase;
 }
 
 .nav-a, .menu-nav{
-
+    text-transform: uppercase;
     font-size: 2rem;
     display: flex;
     justify-content: center;
